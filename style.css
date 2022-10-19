@@ -1,0 +1,169 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+a{
+    text-decoration: none;
+    color: currentColor;
+}
+li{
+    list-style: none;
+}
+.photo{
+        background-image: url(ch4\ -\ Copie.jpg);
+        height: 400px;
+        background-size: cover;
+}
+.logo{
+    font-size: 2em;
+    font-weight: bold;
+}
+.header1{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 30px
+}
+.header1 ul{
+    display: flex;
+}
+.header1 ul a{
+    padding: 0 40px;
+    color: white;
+}
+
+input{
+    outline: none;
+    border: none;
+    padding: 5px 15px;
+    border-radius: 5px;
+    background-color:red;
+    margin-bottom: 9px;
+    cursor: pointer;
+}
+.header2 ul{
+    display: flex;
+    justify-content: space-between;
+}
+.header2 ul a{
+    padding: 0 40px;
+    color: rgb(252, 209, 153);
+
+}
+h1{
+    color: white;
+    margin-bottom: 15px;
+}
+.titre{
+    margin-top: 50px;
+    margin: 50px 395px;
+}
+.bouton{
+    margin-top: 15px;
+    padding: 5px 15px;
+    cursor: pointer;
+}
+h2{
+    text-align: center;
+    padding: 10px 0;
+}
+details{
+    padding: 0 40px;
+    margin-bottom: 20px;
+}
+.img{
+    width: 1000px;
+    height: 265px;
+    background-color: white;
+    display: flex;
+}
+.div2{
+    width: 1000px;
+    height: 265px;
+    background-color: white;
+    display: flex;
+}
+section{
+    background-color: rgb(250, 245, 245);
+}
+.img2{
+    
+    width: 1000px;
+    height: 265px;
+    background-color: white;
+    display: flex;
+    /* padding: 0 80px; */
+    
+}
+h3{
+    padding: 70px 10px;
+}
+.in{
+    display: flex;
+    justify-content: center;
+}
+footer{
+    background-color:rgb(83, 83, 83);
+}
+.bas{
+    color: rgb(206, 202, 202);
+    padding: 20px;
+}
+.bas nav ul{
+    display: flex;
+    justify-content: center;
+}
+ul li a{
+    padding: 20px 40px;
+}
+.text{
+    display: flex;
+}
+.image{
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+.image img{
+    padding: 0 40px;
+}
+.images{
+    padding: 0 300px;
+}
+.toni{
+    margin-top: 20px;
+}
+.wraper{
+    font-size: 2.5em;
+    text-align: center;
+    color: rgb(0,0,0,.6);
+    /* margin-top: 10px; */
+    position: relative;
+}
+.wraper::before{
+    content: "";
+    display: inline-block;
+    position: absolute;
+    width: 120px;
+    height: 3.3px;
+    background-color: rgb(0,0,0,.6);
+    border-radius: 10px;
+    left: 50%;
+    transform: translate(-50%);
+    top: 50px;
+}
+/* h1{
+    color: rgb(0,0,0,.6);
+    font-size: 2em;
+} */
+.titres{
+    font-size: 1.7em;
+    margin-top: 15px;
+    font-weight: bold;
+}
+
+
